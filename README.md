@@ -28,6 +28,5 @@ A system using chameleon hashes and commitment schemes can be designed for offli
 2. **Controlled Modification**: Only the recipient with the correct trapdoor can modify the message, preventing unauthorized modifications or reuse.
 3. **Commitment Verification**: Recipients verify commitments before accepting value transfers, ensuring that only valid commitments are considered.
 
-### Conclusion
 
 This approach leverages chameleon hashes and commitment schemes to create a system for offline value transfer that mimics cash transactions. The recipient can modify the value securely using the provided trapdoor, ensuring that the value transfer is authenticated and verified without needing a central ledger. Further refinements and security measures can enhance the robustness of this system.
